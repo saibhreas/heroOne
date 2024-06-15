@@ -1,0 +1,15 @@
+{
+  "name": "hero1-app",
+  "version": "1.0.0",
+  "description": "basic Hero component with mp4 running in backgroun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "HERO1"
+  },
+  "author": "saibhreas",
+  "license": "ISC"
+}
