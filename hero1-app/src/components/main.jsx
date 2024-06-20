@@ -1,4 +1,5 @@
 import React from 'react';
+import './main.css';
 import videoBg from '../assets/video/purple_moves.mp4';
 
 function Main () {
