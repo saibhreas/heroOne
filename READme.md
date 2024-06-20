@@ -11,7 +11,10 @@
   
 </p>
 
+![ScreenShot](./hero1-app/src/assets/img/screenShot1.jpg)
+
 # Simple REACT Hero Component  <img src='https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat'>
+
 
 
 Github User: https://github.com/saibhreas   Email: fullstack@saibhreas.com
@@ -22,7 +25,7 @@ Github User: https://github.com/saibhreas   Email: fullstack@saibhreas.com
 
 This repo contains an app that is a basic demonstration of a REACT based web page
 
-#### Part One:  *READme.md*  and additional **MD** files chronicle the progression through the my build of a simple REACT page.
+#### Part One:  *READme.md*  and additional **MD** files chronicle the progression through the my build of a simple REACT component.
 
 This *READme.MD* is published as a demonstration of basic:
 
@@ -55,15 +58,17 @@ Demonstrate grasp of software
   
 ## Description
 
-The is an example of basic REACT component to be used for hero space in the GUI.  It is a self contained package complete with style sheet.  
+The is an example of basic REACT component to be used for hero space in the GUI.  It is a self contained package complete with style sheet. 
+
+Main.js is an exportable RECT component containing a video looped an muted running, with an overlay.  
+
+Styling has it as full screen to run in the background as Hero page.
 
 The development environment was **VS Code**
 
 - may need to install extensions:
 
   * Prettier
-  * Tailwind CSS Intellisense
-  * Auto Rename Tag
   * ES7+ React/Redux/React-Native snippets
   * Console Ninja
 
@@ -73,10 +78,15 @@ The development environment was **VS Code**
 -create Main branch folder
 
     git init
+
+-create package.JSON
+
     npm init
 
-    create package.JSON
+-initialize the app
+
     npx create-react-app hero1-app
+    
 -cd to hero1-app
 
 -the following notes should appear:
@@ -109,6 +119,15 @@ The development environment was **VS Code**
 
 -*clean out unnecessary files*
 
+-create app structure
+
+  * inside src make the following folders:
+    * components
+    * assets - inside assets add a video folder
+   
+-inside component build the main.js file
+
+  * use rfce to create an exportable component.
 
 ## Usage
 
@@ -128,7 +147,3 @@ Free to read and fork.
 ## Links
 
 
-create Classprops in scr folder
-  - use rce to create file
-  
-dolphins: https://github.com/fireclint/video-bg-react/tree/main
