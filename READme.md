@@ -42,6 +42,7 @@ Demonstrate grasp of software
 * Reactjs
 * Nodejs 
 * HTML layout concepts
+* Git
 
 ## Table of Content
   
@@ -64,7 +65,9 @@ Main.js is an exportable RECT component containing a video looped an muted runni
 
 Styling has it as full screen to run in the background as Hero page.
 
-The development environment was **VS Code**
+The development environment was **VS Code** on local computer, then 
+
+
 
 - may need to install extensions:
 
